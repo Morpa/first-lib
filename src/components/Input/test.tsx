@@ -16,7 +16,7 @@ describe('</Input>', () => {
     )
   })
 
-  it('renders the Input Component', () => {
+  it('renders the Input Component', async () => {
     const beforePlaceholder = 'before'
     const afterPlaceholder = 'after'
 
@@ -26,7 +26,7 @@ describe('</Input>', () => {
       beforePlaceholder
     ) as HTMLInputElement
 
-    userEvent.type(input, afterPlaceholder)
+    await userEvent.type(input, afterPlaceholder)
 
     expect(input.value).toBe(afterPlaceholder)
   })
