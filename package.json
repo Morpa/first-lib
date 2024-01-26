@@ -42,7 +42,7 @@
     "@rollup/plugin-commonjs": "^25.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.1.0",
-    "@storybook/addon-essentials": "7.6.4",
+    "@storybook/addon-essentials": "7.6.10",
     "@storybook/builder-webpack5": "^7.0.2",
     "@storybook/manager-webpack5": "^6.4.17",
     "@storybook/react": "7.6.5",
